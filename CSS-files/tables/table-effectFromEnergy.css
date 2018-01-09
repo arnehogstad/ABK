@@ -1,0 +1,48 @@
+
+input.inputMenuEffectFromEnergy{
+  height: 28px;
+  width: 197px;
+  border: 1px solid grey;
+  padding: 0px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+  display: table-cell;
+}
+
+label.inputLabelEffectFromEnergy {
+  display: table-cell;
+  vertical-align:middle;
+  font-weight: bold;
+  width: 197px;
+  margin-right: 2px;
+}
+
+span.outputLabelEffectFromEnergy {
+  vertical-align:middle;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-right: 2px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+span.outputValueEffectFromEnergy {
+  vertical-align:middle;
+  font-weight: bold;
+  text-align: right;
+  margin-left: 0px;
+  margin-right: 2px;
+  padding: 0px;
+  margin-top: 5px;
+}
+
+span.unitEffectFromEnergy{
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+div.resultLineEffectFromEnergy {
+  line-height: 40px;
+  font-weight: bold;
+  background-color: rgba(192,192,192,0.3);
+}

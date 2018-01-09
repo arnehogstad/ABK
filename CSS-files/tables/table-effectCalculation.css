@@ -1,0 +1,99 @@
+
+label.inputLabeleffectCalculation {
+  display: table-cell;
+  vertical-align:middle;
+  font-weight: bold;
+  width: 197px;
+  margin-right: 2px;
+}
+
+input.inputMenuTopEffectCalculation{
+  height: 28px;
+  width: 197px;
+  border: 1px solid grey;
+  padding: 0px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+  display: table-cell;
+}
+
+label.effectCalculationFillerRight {
+  display: table-cell;
+  width:18px;
+}
+
+p.effectCalculationFormLineHeading{
+background-color: rgba(0, 0, 0, 0.1);
+display: table-row;
+}
+
+p.effectCalculationFormLine1{
+background-color: white;
+}
+
+p.effectCalculationFormLine2{
+background-color: rgba(0, 0, 0, 0.05);
+}
+
+p.effectCalculationFormLine1,p.effectCalculationFormLine2, p.effectCalculationFormLineHeading {
+  display: table-row;
+}
+
+label.effectKategori {
+  text-align: left;
+  display: table-cell;
+  vertical-align:middle;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-indent: 10px;
+}
+
+label.effectCalculationSpesifikkVerdi {
+  text-align:center;
+  display: table-cell;
+  vertical-align:middle;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+label.effectCalculationOverskriftVenstre,label.effectCalculationOverskriftMidt,label.effectCalcOverskriftHoyre{
+  display: table-cell;
+  vertical-align:middle;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-indent: 10px;
+  font-weight: bold;
+}
+
+label.effectCalculationOverskriftMidt {
+  text-align: center;
+  width: 130px;
+}
+label.effectCalculationOverskriftVenstre {
+  text-align: left;
+  width: 200px;
+}
+
+label.effectCalcOverskriftHoyre,label.effectCalcVerdiHoyre{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  width: 200px;
+}
+
+label.effectCalcKnapp{
+  display: table-cell;
+  vertical-align:middle;
+  text-align: center;
+  width: 50px;
+}
+
+input.inputAreaFormEffectCalculation{
+  border: 1px solid grey;
+  display: inline-block;
+  width:128px;
+  text-align: right;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}

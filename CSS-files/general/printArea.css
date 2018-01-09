@@ -1,0 +1,171 @@
+
+@media print {
+
+/* hiding all elements not to be included in print*/
+  .navigationTab,
+  .inputForCalculationLeft,
+  .preNextNavClass,
+  .printButton,
+  .flagButtons,
+  .userLabel,
+  .userId,
+  .inputAreaFormSpan,
+  .inputLabeleffectCalculation,
+  .inputMenuTopEffectCalculation,
+  .inputLabel,
+  .inputMenuText,
+  .inputMenu,
+  .inputSelect1,
+  .inputSelect2,
+  #buildingStandard2,
+  #indoorTemp,
+  #outdoorTemp,
+  #areaEffectMunicipality,
+  #effectCalcStandard,
+  #effectCalcIndoortemp,
+  #effectCalcDOT,
+  #effectCalcMunicipality,
+  #genDiagramSeksjon,
+  #beregningsInfo,
+  #previous,
+  #current,
+  #next,
+  #menuDescriptionPrevious,
+  #menuDescriptionCurrent,
+  #menuDescriptionNext,
+  #footer,
+  #beregningsInfo
+   {
+    display: none;
+    height: 1px;
+    width: 1px;
+  }
+
+  .incrementDown,
+  .incrementUp
+  {
+    display: none;
+  }
+
+  #facadeArea,
+  #floorArea,
+  #ceilingArea,
+  #windowArea,
+  #thermalWheel,
+  #ventilationFlow,
+  #infiltration
+  {
+    border: 0px;
+  }
+
+/* showing the relevant printdata*/
+  .outputForCalculationRight,
+  #inputSection,
+  .result-row,
+  #section-to-print,
+  #printPart
+  {
+    float: left;
+    position: relative;
+    width: 1000px;
+  }
+
+  span.resultTextLineTitle,
+  span.resultTextLineInformation,
+  span.resultTextLineUnit,
+  p.resultTextBottom,
+  div.legendCell
+   {
+    padding-left: 10px;
+    line-height: 35px;
+    font-size: 18px;
+    display: table-cell;
+  }
+  p.resultTextLine{display: table-row;}
+
+  span.resultTextLineTitle{width: 180px;}
+  span.resultTextLineInformation{width: 230px;}
+  span.resultTextLineUnit{width: 50px;}
+
+
+  div.legendCell{width: 250px;vertical-align: left;}
+
+  p.resultTextHeadline,
+  p.resultTextBottom
+  {
+    width: 1000px;
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid grey;
+    line-height: 35px;
+  }
+
+    p.resultTextLine
+    {
+      display: table-row;
+    }
+
+    #printLineText28,
+    #printLineText30,
+    #printLineText31
+    {
+      font-size: 12px;
+    }
+
+
+  section.legend .color-sample {
+      display: inline-block;
+      width: 0.5em;
+      height: 0.5em;
+      border: 1px solid;
+      border-radius: 0.25em;
+      margin-right: 0.25em;
+      vertical-align: middle;
+      text-align: left;
+  }
+
+  div.chartArea {
+    display: table-row;
+    height: 350px;
+    width: 1000px;
+  }
+
+  div.chartCell {
+    display: table-cell;
+    width: 1000px;
+    height: 250px;
+  }
+  div.legendCell {
+    display: table-cell;
+    width: 220px;
+    height: 220px;
+    vertical-align: middle;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  canvas{
+    width: 800px;
+    height: 320px;
+  }
+
+  #chart{
+    height: 300px;
+    width: 550px;
+    vertical-align: middle;
+  }
+
+
+  .chart-legend li span{
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 2.5px;
+  }
+
+
+}

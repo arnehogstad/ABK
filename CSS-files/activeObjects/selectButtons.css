@@ -1,0 +1,141 @@
+
+/* Text below button */
+
+
+div.buttonText{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  height:100px;
+  width:330px;
+  background-color: rgba(0, 0, 0, 0.06);
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+div.image {
+   position: relative;
+   margin: 0px;
+   padding: 0px;
+   border: 0px;
+   height: 200px;
+   width: 100%; /* for IE 6 */
+}
+
+h3 {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 96%;
+  font-size: 20px;
+  opacity: 0;
+  text-align: left;
+  padding-left: 4%;
+  border:0px;
+}
+
+h3 span {
+   color: black;
+   font-weight: bold;
+   border: 0px;
+}
+/* Button and image format */
+
+.menuButtons{
+  width: 330px;
+  height: 300px;
+  border-color: white;
+  background-color: white;
+  margin: 0px;
+  margin-bottom: 23px;
+  margin-right: 0px;
+  border: 0px;
+  padding: 0px;
+  vertical-align: top;
+}
+.centerObject{
+  width: 370px;
+  height: 300px;
+  border-color: white;
+  background-color: white;
+  margin: 0px;
+  margin-bottom: 23px;
+  margin-right: 0px;
+  border: 0px;
+  padding: 0px;
+  vertical-align: top;
+}
+img.buttonImage{
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+/* hover format */
+
+.menuButtons:hover .buttonText{
+  transition:color 0.4s linear;
+  -webkit-transition:color 0.4s linear;
+  -moz-transition:color 0.4s linear;
+  color: red;
+}
+
+.menuButtons:hover .buttonImage{
+  transition:opacity 0.4s linear;
+  -webkit-transition:opacity 0.4s linear;
+  -moz-transition:opacity 0.4s linear;
+  opacity: 0.2;
+}
+
+.menuButtons:hover h3{
+  transition:opacity 1s linear;
+  -webkit-transition:opacity 1s linear;
+  -moz-transition:opacity 1s linear;
+  opacity: 1;
+}
+
+/* active format */
+.menuButtons:active .buttonText{
+  color: darkgreen;
+  transition:color 0.1s linear;
+  -webkit-transition:color 0.1s linear;
+  -moz-transition:color 0.1s linear;
+}
+
+.menuButtons:active {
+  background-color: white;
+  transition:background-color 0.1s linear;
+  -webkit-transition:background-color 0.1s linear;
+  -moz-transition:background-color 0.1s linear;
+}
+
+.menuButtons:active .buttonImage{
+  opacity: 0;
+  transition:opacity 0.1s linear;
+  -webkit-transition:opacity 0.1s linear;
+  -moz-transition:opacity 0.1s linear;
+}
+
+/* focus format */
+.centerObject:focus,
+.menuButtons:focus{
+  outline:0;
+}
+
+/*for FireFox*/
+    input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner
+    {
+        border : 0px;
+    }
+/*for IE8 */
+    input[type="submit"]:focus, input[type="button"]:focus
+    {
+        outline : none;
+    }

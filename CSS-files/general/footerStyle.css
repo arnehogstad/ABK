@@ -1,0 +1,36 @@
+span.footerSpan{
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+  width: 200px;
+}
+
+span.footerRow{
+  display: table-row;
+  text-align: left;
+  padding-bottom: 5px;
+  line-height: 20px;
+  padding-top: 0px;
+  width: 200px;
+}
+
+span.footerRowSignature{
+  font-size: .785714em;
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#footer{
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  color: black;
+  background-color: white;
+  font-size: 14px;
+  border-top: 3px solid rgba(50,50,150,0.1);
+  padding-top: 40px;
+  margin-top: 40px;
+
+}

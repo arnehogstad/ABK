@@ -1,0 +1,211 @@
+html, body, #container { height: 100%; }
+
+
+header{
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  background: white;
+  height: 70px;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+
+label.userLabel {
+  font-weight:normal;
+  text-align: left;
+  font-size: 10px;
+  width: 50px;
+}
+input.userId {
+  height: 10px;
+  width: 48px;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Open Sans',sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  background:  white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1055px;
+}
+
+#container {
+  height: auto;
+  min-height: 90%;
+}
+
+body > section {
+  padding: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+div.tittel {
+  padding-bottom: 27px;
+  font-size: 20px;
+  height: 30px;
+  color: Black;
+  font-weight: bold;
+  width: 100%;
+  display: table-cell;
+}
+
+#inputSection {
+  padding-top: 5px;
+}
+
+div.inputForCalculationLeft{
+  width: 519px;
+  display: table-cell;
+}
+
+div.outputForCalculationRight{
+  width: 519px;
+  display: table-cell;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+input.inputMenu{
+  height: 20px;
+  width: 248px;
+  border: 1px solid grey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 1px;
+  display: table-cell;
+  text-align: right;
+}
+
+input.inputMenuText{
+
+  height: 20px;
+  width: 232px;
+  border: 1px solid grey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 15px;
+  margin: 1px;
+  display: table-cell;
+  text-align: right;
+}
+
+#belowAdminWindow {
+    padding:10px;
+
+}
+#resultPart {
+    padding:10px;
+    width: 100%;
+}
+
+select.inputSelect1, select.inputSelect2 {
+  height: 32px;
+  border: 1px solid grey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: table-cell;
+  align-items: center;
+}
+select.inputSelect1{
+  width: 40px;
+  margin-left: 1px;
+}
+select.inputSelect2{
+  width: 210px;
+  margin-left: 0.5px;
+}
+
+
+label.inputLabel {
+  display: table-cell;
+  vertical-align:middle;
+  width: 250px;
+}
+
+input.inputAreaForm{
+  border: 1px solid grey;
+  display: inline-block;
+  width:100%;
+}
+
+span.inputAreaFormSpan{
+    display: table-cell;
+}
+
+p.inputP {
+  display: table-row;
+}
+p.inputCell {
+  display: table-cell;
+  width: 350px;
+}
+p.inputCellLeft{
+  text-align: left;
+  line-height: 20px;
+  padding: 10px 20px;
+}
+p.inputCellMiddle{
+  text-align: center;
+}
+p.inputCellRight{
+  text-align: right;
+}
+
+
+section.form-row {
+  margin-bottom: 10px;
+}
+
+div.result-row {
+  padding: 1px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  background-color: white;
+  color: black;
+  width: 100%;
+  clear: both;
+}
+
+
+section.form-row > section:first-child {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ui-menu {
+  background: white;
+  display: block;
+  width: 400px;
+  border: 1px solid rgba(0, 0, 255, 0.1);
+  z-index: 1000;
+}
+
+.ui-menu .ui-menu-item {
+  padding: 10px;
+}
+
+.ui-menu .ui-state-focus {
+  background:rgba(0, 0, 255, 0.1);
+}
+
+.ui-helper-hidden-accessible {
+  display: none;
+}

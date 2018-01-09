@@ -1,0 +1,147 @@
+div.offerDiv{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 13px;
+
+}
+
+div.myOfferDiv >div.tilbudsOverskrift{
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 5px 0;
+}
+
+div.myOfferDiv >div.tilbudsOverskrift:nth-child(4n+1) {
+    background-color: rgba(192,192,192,0.1);
+}
+
+
+p.inputR1 {
+  display: table-cell;
+  line-height: 30px;
+  width: 100px;
+  text-indent: 5px;
+}
+p.inputR2 {
+  display: table-cell;
+  line-height: 30px;
+  width: 540px;
+}
+p.inputR22 {
+  display: table-cell;
+  line-height: 30px;
+  width: 600px;
+}
+p.inputR3 {
+  display: table-cell;
+  line-height: 30px;
+  width: 100px;
+  text-align: right;
+}
+p.inputR4 {
+  display: table-cell;
+  line-height: 30px;
+  width: 75px;
+  text-align: center;
+}
+p.inputR5 {
+  display: table-cell;
+  line-height: 30px;
+  width: 75px;
+  text-align: center;
+}
+p.inputR55 {
+  display: table-cell;
+  line-height: 30px;
+  width: 130px;
+  text-align: center;
+}
+p.inputR6 {
+  display: table-cell;
+  line-height: 30px;
+  width: 100px;
+  text-align: right;
+}
+p.inputButton {
+  display: table-cell;
+  line-height: 30px;
+  width: 32px;
+  text-align: right;
+}
+
+p.fillerRight{
+  line-height: 30px;
+  display: table-cell;
+  width: 3px;
+}
+
+select.offerSelectNumber, select.offerSelect,select.offerSelect2 {
+  height: 32px;
+  border: 1px solid grey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: table-cell inline;
+  align-items: center;
+}
+select.offerSelectNumber{
+  width: 40px;
+  margin-left: 1px;
+}
+
+select.offerSelect{
+  width: 210px;
+  margin-left: 0.5px;
+}
+select.offerSelect2{
+  width: 100px;
+  margin-left: 0.5px;
+}
+
+
+span.tilbudsOverskrift {
+  text-align: left;
+  display: inline-block;
+  width: 100px;
+  font-size: 15px;
+}
+
+span.tilbudsOverskrift1 {;
+  font-weight: bold;
+  width: 120px;
+}
+span.tilbudsOverskriftNavn{
+  font-weight: bold;
+}
+span.tilbudsOverskriftNavnVerdi{
+  width: 295px;
+  font-size: 12px;
+}
+span.tilbudsOverskriftDato{
+  font-weight: bold;
+  width: 50px;
+}
+span.tilbudsOverskriftDatoVerdi{
+  font-size: 12px;
+    width: 70px;
+}
+span.tilbudsOverskriftSum{
+    font-weight: bold;
+}
+
+span.tilbudsOverskriftSumVerdi {
+  text-align: right;
+  font-size: 12px;
+  width: 80px;
+  padding-right: 20px;
+}
+
+div.confirmationMessageClass {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.tilbudsNummerVisning{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}

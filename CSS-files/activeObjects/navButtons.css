@@ -1,0 +1,39 @@
+.navButton{
+  margin: 0px;
+  padding: 0px;
+  height: 35px;
+  padding-bottom: 10px;
+  background-color: white;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 3px solid white;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.navButtonActive{
+  margin: 0px;
+  padding: 0px;
+  height: 35px;
+  padding-bottom: 10px;
+  background-color: white;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 3px solid red;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.navButton:hover{
+    border-bottom: 3px solid red;
+}
+.navButtonActive:hover{
+  border-bottom: 3px solid darkred;
+}
+.navButton:focus{
+  outline:0;
+}
+.navButtonActive:focus{
+  outline:0;
+}

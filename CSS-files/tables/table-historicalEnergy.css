@@ -1,0 +1,114 @@
+label.inputLabelHistorical {
+  display: table-cell;
+  vertical-align:middle;
+  font-weight: bold;
+  width: 197px;
+  margin-right: 2px;
+}
+
+input.inputMenuTopHistorical{
+  height: 28px;
+  width: 197px;
+  border: 1px solid grey;
+  padding: 0px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+  display: table-cell;
+}
+p.normtallFormLineHeading{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+label.normtallOverskriftVenstre{
+  font-weight: bold;
+  display: table-cell;
+  vertical-align:middle;
+  width: 320px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+label.normtallOverskriftMidt{
+  text-align: center;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align:middle;
+  width: 320px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+label.normtallOverskriftHoyre{
+  text-align: center;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align:middle;
+  width: 320px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+label.normtallskjemakategori{
+  display: table-cell;
+  vertical-align:middle;
+  width: 320px;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+label.normtallskjemaVillaverdi{
+  display: table-cell;
+  vertical-align:middle;
+  text-align: right;
+  width: 160px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+label.normtallskjemaRekkeverdi{
+  display: table-cell;
+  vertical-align:middle;
+  text-align: right;
+  width: 160px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+label.normtallskjemabilde{
+  display: table-cell;
+  width: 320px;
+  vertical-align:middle;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+label.normtallFillerRight,label.normtallFillerLeft {
+  width:35px;
+  display: table-cell;
+}
+
+p.historicalFormLine{
+  background-color: white;
+  display: table-row;
+}
+
+
+span.frac {
+  display: inline-block;
+  text-align: center;
+}
+span.frac > sup {
+  display: block;
+  border-bottom: 1px solid;
+}
+span.frac > span {
+  display: none;
+}
+span.frac > sub {
+  display: block;
+}

@@ -1,0 +1,109 @@
+span.flagSpan{
+  margin-right: 750px;
+}
+
+div.navigationTab{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+span.navItem{
+}
+
+span.inactiveMenuImage{
+  width: 0px;
+  height: auto;
+  display: inline;
+}
+
+span.menuImage{
+  width: auto;
+  height: auto;
+  display: inline;
+}
+
+span.buttonSpaceSpan{
+  display: inline-block;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  width: 20px;
+}
+
+span.inactiveButtonSpaceSpan{
+  display: inline-block;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  width: 0px;
+}
+
+div.nextStepInfo{
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  font-size: 20px;
+  color: black;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  margin-bottom: 23px;
+  padding-right: 13.5px;
+}
+div.nextStepUnderText{
+   padding-right: 23.5px;
+   height:100px;
+   width: 330px;
+   text-align: left;
+   padding-top: 10px;
+   display: table-cell;
+   line-height: 20px;
+   font-size: 15px;
+}
+span.nextStepImage{
+  padding-right: 23.5px;
+  height: 300px;
+  width:330px;
+}
+span.nextStepCurrentStepImage{
+  padding-right: 23.5px;
+}
+
+div.wizardTab {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.wizardStart {
+  margin-top: 50px;
+}
+
+div.navTitles{
+  display: table-row;
+}
+
+.navItemTittel{
+  color: rgba(0,0,0,0.5);
+  display: inline-block;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.navItemTittel0{
+width:110px;
+border: 0px;
+}
+.navItemTittel01{
+width:40px;
+border: 0px;
+}
+
+.navItemTittel1{
+width:175px;
+}
+.navItemTittel2{
+width:280px;
+}
+.navItemTittel3{
+width:255px;
+}
